@@ -12,7 +12,7 @@ public class Animal {
 
     public boolean isCanBark() throws Exception {
         if(animakKind.contains(AnimalType.Dog)) {
-            return canBark
+            return canBark;
         }else {
             throw new Exception("This animal is not a dog!");
         }
